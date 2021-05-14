@@ -1,0 +1,7 @@
+CREATE TABLE ` funddetails `.`funddetails`(
+`fundId` INT(100) NOT NULL AUTO_INCREMENT , 
+`fundCode` VARCHAR(10) NOT NULL ,
+`fundName` VARCHAR(100) NOT NULL , 
+`fundPrice` VARCHAR(100) NOT NULL , 
+`fundDesc` VARCHAR(100) NOT NULL , 
+ PRIMARY KEY (`fundId`)) ENGINE = InnoDB;
